@@ -1,0 +1,40 @@
+:root {
+    /* Colors */
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-primary: #0693e3; /* vivid-cyan-blue */
+    --color-secondary: #9b51e0; /* vivid-purple */
+    --color-text: #333333;
+    --color-bg-light: #f9f9f9;
+    --color-border: #cccccc;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, rgb(6, 147, 227) 0%, rgb(155, 81, 224) 100%);
+    --gradient-secondary: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+    
+    /* Fonts */
+    --font-primary: 'Jost', sans-serif;
+    --font-secondary: 'Archivo', sans-serif; /* For large headings */
+    
+    /* Spacing */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+    
+    /* Global Content Width */
+    --content-width: 1200px;
+    --content-padding: 1rem;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
